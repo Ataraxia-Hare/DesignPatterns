@@ -16,8 +16,4 @@
         <ProjectReference Include="..\DesignPatterns\DesignPatterns.csproj"/>
     </ItemGroup>
 
-    <ItemGroup>
-      <Compile Remove="UnitTest1.cs" />
-    </ItemGroup>
-
 </Project>
