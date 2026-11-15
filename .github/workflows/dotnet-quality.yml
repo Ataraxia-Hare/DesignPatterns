@@ -24,13 +24,13 @@ jobs:
                     dotnet-version: '9.0.x'
 
             -   name: Restore dependencies
-                run: dotnet restore EasySpan.sln
+                run: dotnet restore DesignPatterns.sln
 
             -   name: Check code format and style
-                run: dotnet format EasySpan.sln --no-restore --verify-no-changes
+                run: dotnet format DesignPatterns.sln --no-restore --verify-no-changes
 
             -   name: Build and analyze
-                run: dotnet build EasySpan.sln --configuration Release --no-restore -warnaserror
+                run: dotnet build DesignPatterns.sln --configuration Release --no-restore -warnaserror
 
             -   name: Run tests
-                run: dotnet test EasySpan.sln --configuration Release --no-build
+                run: dotnet test DesignPatterns.sln --configuration Release --no-build
