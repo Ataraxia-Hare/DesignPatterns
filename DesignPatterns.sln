@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Tests", "DesignPatterns.Tests\DesignPatterns.Tests.csproj", "{3552CD6B-991D-4888-8989-B88231C068B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Benchmarks", "DesignPatterns.Benchmarks\DesignPatterns.Benchmarks.csproj", "{638EC194-8094-4820-AB82-03B51551B638}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{3552CD6B-991D-4888-8989-B88231C068B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3552CD6B-991D-4888-8989-B88231C068B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3552CD6B-991D-4888-8989-B88231C068B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{638EC194-8094-4820-AB82-03B51551B638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{638EC194-8094-4820-AB82-03B51551B638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{638EC194-8094-4820-AB82-03B51551B638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{638EC194-8094-4820-AB82-03B51551B638}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
