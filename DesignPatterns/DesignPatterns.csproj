@@ -2,9 +2,10 @@
 
     <PropertyGroup>
         <TargetFrameworks>netstandard2.0;net8.0</TargetFrameworks>
+        <LangVersion>8.0</LangVersion>
         <Nullable>enable</Nullable>
 
-        <AnalysisLevel>latest</AnalysisLevel>
+        <AnalysisLevel>8.0</AnalysisLevel>
         <AnalysisMode>Recommended</AnalysisMode>
         <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
